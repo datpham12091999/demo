@@ -33,11 +33,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(71, 56);
+            this.textBox1.Location = new System.Drawing.Point(104, 96);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
@@ -55,6 +54,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox textBox1;
+
     }
 }
 
