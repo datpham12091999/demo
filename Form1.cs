@@ -15,5 +15,14 @@ namespace demo
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+            {
+                Close();
+                MessageBox.Show("xin chao");
+            }
+        }
     }
 }
